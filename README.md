@@ -9,7 +9,7 @@ We recommend using Conda to create the environment.
 
 ```bash
 conda env create -f environment.yml
-conda activate scl
+conda activate srcd
 ```
 
 The main dependencies include:
