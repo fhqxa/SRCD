@@ -1,5 +1,3 @@
-# SRCD
-
 <img width="1862" height="1007" alt="Graphical abstract-SRCD" src="https://github.com/user-attachments/assets/09576ba5-7edb-497e-8e4d-1dd6ee2bef78" />
 
 
@@ -32,38 +30,6 @@ The datasets used in this project can be downloaded from:
 
 After downloading, place the datasets under the `data/` directory.
 
-The project supports the following datasets:
-
-* miniImageNet
-* tieredImageNet
-* CIFAR-FS
-* FC100
-
-The expected project structure is:
-
-```text
-SRCD/
-├── data/
-│   ├── miniImageNet/
-│   ├── tiered-imagenet/
-│   ├── CIFAR-FS/
-│   └── fc100/
-│
-├── datasets/
-│   ├── cifarfs.py
-│   ├── cub.py
-│   ├── fc100.py
-│   ├── miniimagenet.py
-│   ├── samplers.py
-│   └── tiered_imagenet.py
-│
-├── resnet.py
-├── train.py
-├── test.py
-├── util.py
-├── environment.yml
-└── README.md
-```
 
 ## Training
 
