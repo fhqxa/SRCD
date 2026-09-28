@@ -1,6 +1,7 @@
 # SRCD
 
-[Uploading Graphical abstract-SRCD.pdf…]()
+[Graphical abstract-SRCD.pdf](https://github.com/user-attachments/files/32740125/Graphical.abstract-SRCD.pdf)
+
 
 ## Requirements
 
