@@ -1,6 +1,6 @@
 # SRCD
 
-[Graphical abstract-SRCD.pdf](https://github.com/user-attachments/files/32740125/Graphical.abstract-SRCD.pdf)
+<img width="1862" height="1007" alt="Graphical abstract-SRCD" src="https://github.com/user-attachments/assets/09576ba5-7edb-497e-8e4d-1dd6ee2bef78" />
 
 
 ## Requirements
