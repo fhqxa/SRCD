@@ -1,6 +1,6 @@
 # SRCD
 
-Official PyTorch implementation of **SRCD** for few-shot image classification.
+[Uploading Graphical abstract-SRCD.pdf…]()
 
 ## Requirements
 
