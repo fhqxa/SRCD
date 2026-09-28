@@ -65,15 +65,6 @@ SRCD/
 └── README.md
 ```
 
-The dataset arguments used in the code are:
-
-| Dataset        | Argument  |
-| -------------- | --------- |
-| miniImageNet   | `mini`    |
-| tieredImageNet | `tiered`  |
-| CIFAR-FS       | `cifarfs` |
-| FC100          | `fc100`   |
-
 ## Training
 
 To train SRCD, run:
