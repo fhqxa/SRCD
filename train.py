@@ -285,7 +285,7 @@ def train(args, dataloader, model, optimizer, epoch):
         features, train_logit, rot_logits = model(inputs, ssl=True, feature=False)
 
         # rot_labels = F.one_hot(rot_labels.to(torch.int64), 4).float()
-        # 计算旋转损失，基于旋转角度标签的多标签二分类交叉熵
+
         # loss_rot = torch.sum(F.binary_cross_entropy_with_logits(
         #     input=rot_logits, target=rot_labels))
         loss_rot = F.cross_entropy(rot_logits, rot_labels)
@@ -395,11 +395,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--save-path', default='')
     parser.add_argument('--gpu', default='0')
-    # 随机种子，确保训练结果的可复现性
+
     parser.add_argument('--seed', type=int, default=1)
-    # 是否开启详细的日志记录
+
     parser.add_argument('--detail', type=str2bool, nargs='?', default=True)
-    # 网络模型的超参数设置
+
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--batch-size', type=int, default=32)
     # parser.add_argument('--lr', type=float, default=0.05)
@@ -428,7 +428,7 @@ if __name__ == '__main__':
     args.lr_decay_epochs = list([])
     for it in iterations:
         args.lr_decay_epochs.append(int(it))
-    # 根据所选的数据集，调整图像尺寸和数据加载线程数
+
     if args.dataset in ['mini', 'tiered']:
         args.size = 84
     elif args.dataset in ['cifarfs', 'fc100']:
